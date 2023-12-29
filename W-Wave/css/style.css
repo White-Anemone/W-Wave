@@ -140,14 +140,14 @@ button {
 }
 
 .main-nav {
-  margin-right: 78px;
+  margin-right: 70px;
   margin-left: -10px
 }
 
 .main-nav__list {
   display: flex;
   list-style-type: none;
-  column-gap: 37px;
+  column-gap: 40px;
 }
 
 .main-nav__link {
@@ -163,6 +163,8 @@ button {
 }
 
 .search__btn {
+  height: 28podcasts__card-play-btnpx;
+  padding-top: 4px;
   border: none;
   background-color: transparent;
 }
@@ -171,7 +173,7 @@ button {
   position: absolute;
   display: none;
   width: 300px;
-  height: 24px;
+  height: 28px;
   right: 35px;
   top: 0;
 }
@@ -190,9 +192,11 @@ button {
 }
 
 .enter-btn {
+  font-size: 16px;
   font-weight: 600;
   color: var(--dark-color);
-  padding: 12px 34px;
+  padding: 10px 30px;
+  border: 2px solid #121723;
   border-radius: 77px;
   background-color: transparent;
 }
@@ -412,6 +416,10 @@ button {
   position: absolute;
   top: 30px;
   right: 30px;
+  width: 48px;
+  height: 48px;
+  border: none;
+  background-color: transparent;
 }
 
 .podcasts__card-info {
@@ -836,6 +844,8 @@ button {
   position: relative;
   width: 160px;
   height: 224px;
+  border: none;
+  background-color: transparent;
 }
 
 .playlists__group_russia::after {
@@ -856,7 +866,7 @@ button {
   height: 20px;
 }
 
-.playlists__group-btn {
+.playlists__group-player {
   position: absolute;
   top: 0;
   left: 0;
@@ -871,6 +881,8 @@ button {
 }
 
 .playlists__group-info {
+  width: 100%;
+  text-align: left;
   padding: 15px;
   border: 1px solid #E6E8EC;
 }
@@ -879,7 +891,7 @@ button {
   font-size: 16px;
   font-weight: 500;
   color: var(--dark-color);
-  margin-bottom: 1px;
+  margin-bottom: 4px;
 }
 
 .playlists__group-songs {
@@ -998,7 +1010,7 @@ button {
 
 .swiper {
   position: relative;
-  margin-bottom: 30px;
+  margin-bottom: 29px;
 }
 
 .swiper__btn {
@@ -1040,7 +1052,7 @@ button {
   font-size: 20px;
   font-weight: 500;
   color: var(--white-color);
-  margin-bottom: 8px;
+  margin-bottom: 7px;
 }
 
 .swiper__item-info {
@@ -1067,7 +1079,7 @@ button {
 .about__form-input {
   width: 48%;
   height: 70px;
-  padding: 7px 32px 0 32px;
+  padding: 0 32px;
   border: 1px solid #FFFFFF;
   border-radius: 40px;
   background-color: transparent;
@@ -1094,12 +1106,13 @@ button {
   font-weight: 500;
   color: var(--white-color);
   background-color: #6D31EE;
-  border: none;
+  border: 2px solid transparent;
   border-radius: 40px;
   margin-bottom: 33px;
 }
 
 .about__form-checkbox {
+  width: 295px;
   height: 12px;
   position: relative;
   display: flex;
@@ -1186,16 +1199,18 @@ button {
 
 .footer__nav-list {
   display: grid;
-  grid-template-columns: 76px 86px 65px;
+  grid-template-columns: 88px 98px 77px;
   grid-template-rows: 16px 16px 16px;
-  column-gap: 109px;
+  column-gap: 97px;
   row-gap: 20px;
   list-style-type: none;
+  margin-right: -6px;
 }
 
 .footer__nav-link {
   text-decoration: none;
   color: var(--white-color);
+  padding: 3px 6px 2px 6px;
 }
 
 .footer__prodaction {
