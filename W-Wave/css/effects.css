@@ -1,0 +1,510 @@
+.main-nav__item,
+.main-nav__link,
+.second-nav__item,
+.second-nav__link,
+.search__btn,
+.search__btn svg path,
+.enter-btn,
+.broadcast-player__item,
+.broadcast-player__item svg path,
+.banner__text-link,
+.banner__text-link::after,
+.banner__link,
+.podcasts__counter,
+.podcasts__counter span,
+.podcasts__counter svg,
+.podcasts__counter svg path,
+.podcasts__card-play-btn,
+.podcasts__card-play-btn svg circle,
+.podcasts__card-play-btn svg path,
+.podcasts__more-btn,
+.broadcasts__card-link,
+.broadcasts__card-link svg path,
+.broadcasts__authors-btn,
+.broadcasts__archive-link,
+.accordion__btn,
+.accordion__btn svg circle,
+.accordion__btn svg path,
+.accordion__names-item,
+.guest-info__socials-item,
+.guest-info__socials-item a,
+.guest-info__socials-item a svg path,
+.guest-info__link,
+.playlists__genres-btn,
+.playlists__genres-btn-input,
+.playlists__group,
+.playlists__group-player,
+.playlists__group-info,
+.playlists__group-name,
+.playlists__group-songs,
+.advertisement__link,
+.advertisement__link svg path,
+.swiper__btn,
+.swiper__btn svg circle,
+.swiper__btn svg path,
+.about__form-text,
+.about__form-input,
+.about__form-btn,
+.about__form-checkbox,
+.footer__socials-item,
+.footer__socials-link,
+.footer__socials-link svg path,
+.footer__nav-link {
+  transition: all .5s ease;
+  outline: none;
+}
+
+@media (hover:hover) {
+
+  .main-nav__item:hover,
+  .second-nav__item:hover,
+  .search__btn:hover,
+  .broadcast-player__item:hover,
+  .banner__text-link:hover,
+  .podcasts__counter:hover,
+  .podcasts__card-play-btn:hover,
+  .playlists__genres-btn:hover,
+  .playlists__group:hover,
+  .swiper__btn:hover,
+  .about__form-checkbox:hover,
+  .footer__socials-item:hover {
+    cursor: pointer;
+  }
+
+  .main-nav__item:hover .main-nav__link,
+  .second-nav__item:hover .second-nav__link {
+    color: #6D31EE;
+  }
+
+  .search__btn:hover svg path {
+    stroke: #AA9DFA;
+  }
+
+  .enter-btn:hover {
+    cursor: pointer;
+    background-color: #121723;
+    color: #FFFFFF;
+  }
+
+  .broadcast-player__item:hover svg path {
+    fill: #6D31EE;
+  }
+
+  .banner__text-link:hover::after {
+    width: 100%;
+  }
+
+  .banner__link:hover {
+    cursor: pointer;
+    background-color: #AA9DFA;
+  }
+
+  .podcasts__counter:hover span {
+    color: #6D31EE;
+  }
+
+  .podcasts__counter:hover svg path {
+    fill: #6D31EE;
+  }
+
+  .podcasts__card-play-btn:hover svg circle {
+    stroke: #6D31EE;
+  }
+
+  .podcasts__card-play-btn:hover svg path {
+    fill: #6D31EE;
+  }
+
+  .podcasts__more-btn:hover,
+  .broadcasts__archive-link:hover {
+    cursor: pointer;
+    color: #FFFFFF;
+    background-color: #6D31EE;
+  }
+
+  .broadcasts__authors-btn:hover {
+    cursor: pointer;
+    background-color: #F5F6F7;
+  }
+
+  .broadcasts__card-link:hover {
+    cursor: pointer;
+    color: #6D31EE;
+  }
+
+  .broadcasts__card-link:hover svg path {
+    fill: #6D31EE;
+  }
+
+  .accordion__btn:hover {
+    cursor: pointer;
+    color: #AA9DFA;
+  }
+
+  .accordion__btn:hover svg circle,
+  .accordion__btn:hover svg path {
+    stroke: #AA9DFA;
+  }
+
+  .accordion__names-item:hover {
+    cursor: pointer;
+    color: #AA9DFA;
+  }
+
+  .guest-info__socials-item:hover a svg path {
+    fill: #6D31EE;
+  }
+
+  .guest-info__link:hover {
+    cursor: pointer;
+    color: #FFFFFF;
+    background-color: #AA9DFA;
+  }
+
+  .playlists__genres-btn:hover .playlists__genres-btn-input {
+    border-color: #6D31EE;
+  }
+
+  .playlists__group:hover .playlists__group-info {
+    border-color: #6D31EE;
+    background-color: #6D31EE;
+  }
+
+  .playlists__group:hover .playlists__group-songs,
+  .playlists__group:hover .playlists__group-name {
+    color: #FFFFFF;
+  }
+
+  .playlists__group:hover .playlists__group-player {
+    opacity: 1;
+  }
+
+  .advertisement__link:hover {
+    cursor: pointer;
+    color: #121723;
+    background-color: #F0D288;
+  }
+
+  .advertisement__link:hover svg path:first-child {
+    fill: #121723;
+  }
+
+  .advertisement__link:hover svg path:nth-child(2) {
+    fill: #F0D288;
+  }
+
+  .swiper__btn:hover svg circle,
+  .swiper__btn:hover svg path {
+    stroke: #AA9DFA;
+  }
+
+  .about__form-text:hover,
+  .about__form-input:hover {
+    cursor: pointer;
+    background-color: #292E39;
+  }
+
+  .about__form-btn:hover {
+    cursor: pointer;
+    background-color: #AA9DFA;
+  }
+
+  .footer__socials-item:hover .footer__socials-link svg path {
+    fill: #6D31EE;
+  }
+
+  .footer__nav-link:hover {
+    color: #6D31EE;
+  }
+}
+
+.main-nav__link:focus,
+.second-nav__link:focus {
+  color: #FFFFFF;
+  background-color: #AA9DFA;
+}
+
+.main-nav__link:active,
+.second-nav__link:active {
+  color: #4F28A5;
+}
+
+.search__btn:focus svg path {
+  stroke: #AA9DFA;
+}
+
+.search__btn:active svg path {
+  stroke: #4F28A5;
+}
+
+.enter-btn:focus {
+  background-color: #AA9DFA;
+  color: #121723;
+}
+
+.enter-btn:active {
+  background-color: #4F28A5;
+  border-color: #4F28A5;
+  color: #FFFFFF;
+}
+
+.broadcast-player__item:focus svg path {
+  fill: #AA9DFA;
+}
+
+.broadcast-player__item:active svg path {
+  fill: #4F28A5;
+}
+
+.banner__text-link:focus {
+  color: #6D31EE;
+  font-size: 18px;
+}
+
+.banner__text-link:active {
+  color: #4F28A5;
+}
+
+.banner__link:focus {
+  background-color: #AA9DFA;
+  border-color: #4F28A5;
+}
+
+.banner__link:active {
+  background-color: #4F28A5;
+}
+
+.podcasts__counter:focus span {
+  color: #6D31EE;
+  transform: scale(1.1);
+}
+
+.podcasts__counter:focus svg {
+  transform: scale(1.1);
+}
+
+.podcasts__counter:focus svg path {
+  fill: #6D31EE;
+}
+
+.podcasts__counter:active span {
+  color: #4F28A5;
+}
+
+.podcasts__counter:active svg path {
+  fill: #4F28A5;
+}
+
+.podcasts__card-play-btn:focus svg circle {
+  stroke: #AA9DFA;
+}
+
+.podcasts__card-play-btn:focus svg path {
+  fill: #AA9DFA;
+}
+
+.podcasts__card-play-btn:active svg circle {
+  stroke: #4F28A5;
+  fill: #4F28A5;
+}
+
+.podcasts__card-play-btn:active svg path {
+  fill: #FFFFFF;
+}
+
+.podcasts__more-btn:focus,
+.broadcasts__archive-link:focus {
+  color: #FFFFFF;
+  background-color: #AA9DFA;
+}
+
+.podcasts__more-btn:active,
+.broadcasts__archive-link:active {
+  color: #FFFFFF;
+  background-color: #4F28A5;
+}
+
+.broadcasts__card-link:focus {
+  color: #FFFFFF;
+  background-color: #AA9DFA;
+}
+
+.broadcasts__card-link:focus svg path {
+  fill: #FFFFFF;
+}
+
+.broadcasts__card-link:active {
+  color: #4F28A5;
+}
+
+.broadcasts__card-link:active svg path {
+  fill: #4F28A5;
+}
+
+.broadcasts__authors-btn:focus {
+  border-color: #6D31EE;
+}
+
+.broadcasts__authors-btn:active {
+  background-color: #D2D5DD;
+}
+
+.accordion__btn:focus {
+  background-color: #292E39;
+}
+
+.accordion__btn:active {
+  color: #AA9DFA;
+}
+
+.accordion__btn:active svg circle {
+  fill: #AA9DFA;
+}
+
+.accordion__btn:active svg path {
+  stroke: #FFFFFF;
+}
+
+.accordion__names-item:focus {
+  color: #AA9DFA;
+  transform: scale(1.1);
+}
+
+.accordion__names-item:active {
+  cursor: pointer;
+  color: #6D31EE;
+}
+
+.guest-info__socials-item a:focus svg path {
+  fill: #AA9DFA;
+}
+
+.guest-info__socials-item a:active svg path {
+  fill: #4F28A5;
+}
+
+.guest-info__link:focus {
+  color: #FFFFFF;
+  border-color: #6D31EE;
+  background-color: #6D31EE;
+}
+
+.guest-info__link:active {
+  color: #FFFFFF;
+  border-color: #4F28A5;
+  background-color: #4F28A5;
+}
+
+.playlists__genres-btn:focus:not(.playlists__genres-btn_pressed) .playlists__genres-btn-input {
+  background-color: #D2D5DD;
+  border-color: #6D31EE;
+}
+
+.playlists__group:focus .playlists__group-info {
+  border-color: #AA9DFA;
+  background-color: #AA9DFA;
+}
+
+.playlists__group:focus .playlists__group-name,
+.playlists__group:focus .playlists__group-songs {
+  color: #121723;
+}
+
+.playlists__group:focus .playlists__group-player {
+  opacity: 1;
+}
+
+.playlists__group:active .playlists__group-info {
+  border-color: #4F28A5;
+  background-color: #4F28A5;
+}
+
+.playlists__group:active .playlists__group-songs,
+.playlists__group:active .playlists__group-name {
+  color: #FFFFFF;
+}
+
+.playlists__group:active .playlists__group-player {
+  opacity: 1;
+}
+
+.advertisement__link:focus {
+  color: #121723;
+  background-color: #BB973E;
+}
+
+.advertisement__link:focus svg path:first-child {
+  fill: #121723;
+}
+
+.advertisement__link:focus svg path:nth-child(2) {
+  fill: #F0D288;
+}
+
+.advertisement__link:active {
+  color: #121723;
+  border-color: #BB973E;
+  background-color: #BB973E;
+}
+
+.advertisement__link:active svg path:first-child {
+  fill: #121723;
+}
+
+.advertisement__link:active svg path:nth-child(2) {
+  fill: #BB973E;
+}
+
+.swiper__btn:focus svg circle {
+  fill: #AA9DFA;
+}
+
+.swiper__btn:focus svg path {
+  stroke: #FFFFFF;
+}
+
+.swiper__btn:active svg circle {
+  fill: #4F28A5;
+  stroke: #A1A6B4;
+}
+
+.swiper__btn:active svg path {
+  stroke: #A1A6B4;
+}
+
+.about__form-text:focus,
+.about__form-input:focus {
+  border-color: #AA9DFA;
+  background-color: #292E39;
+}
+
+.about__form-btn:focus {
+  border-color: #4F28A5;
+  background-color: #AA9DFA;
+}
+
+.about__form-btn:active {
+  border-color: #4F28A5;
+  background-color: #4F28A5;
+}
+
+.about__form-checkbox:focus {
+  transform: scale(1.1);
+}
+
+.footer__socials-item .footer__socials-link:focus svg path {
+  fill: #AA9DFA;
+}
+
+.footer__socials-item .footer__socials-link:active svg path {
+  fill: #4F28A5;
+}
+
+.footer__nav-link:focus {
+  color: #FFFFFF;
+  background-color: #AA9DFA;
+}
+
+.footer__nav-link:active {
+  color: #4F28A5;
+}
