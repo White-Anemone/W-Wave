@@ -1,0 +1,232 @@
+@media (max-width: 1300px) {
+  .swiper {
+    width: 855px;
+    left: 50%;
+    transform: translate(-50%);
+  }
+
+  .swiper__wrapper {
+    column-gap: 60px;
+  }
+
+  .swiper__btn_prev {
+    left: -100px;
+  }
+
+  .swiper__btn_next {
+    right: -100px;
+  }
+
+  .swiper__item {
+    width: 397px;
+    height: 337px;
+  }
+}
+
+@media (max-width: 1210px) {
+  .header-section::after {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 60px;
+    left: 0;
+    top: 0;
+    background-color: #E6E8EC;
+    z-index: -10;
+  }
+
+  .container {
+    padding: 0 100px;
+  }
+
+  .logo {
+    width: 100%;
+    height: 60px;
+    margin: 0;
+  }
+
+  .logo svg {
+    width: 112px;
+    height: 14px;
+  }
+
+  .first-header {
+    width: 100%;
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 48px 104px;
+  }
+
+  .main-nav__list {
+    column-gap: 0;
+    justify-content: space-between;
+  }
+
+  .main-nav {
+    margin-right: 4%;
+  }
+
+  .second-header {
+    width: 100%;
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 300px;
+  }
+
+  .second-nav__list {
+    justify-content: space-between;
+    column-gap: 0;
+  }
+
+  .broadcast-player {
+    margin: 0;
+  }
+
+  .broadcast-player__item {
+    width: 150px;
+  }
+
+  .age-restriction {
+    display: none;
+  }
+
+  .banner {
+    padding: 90px 0 80px 0;
+  }
+
+  .banner__info {
+    padding-top: 0;
+  }
+
+  .banner__text {
+    margin-bottom: 45px;
+  }
+
+  .banner__img img {
+    width: 256px;
+    height: 262px;
+  }
+
+  .broadcasts {
+    grid-template-rows: 60px 293px 1fr;
+  }
+
+  .broadcasts__cards-wrapper {
+    column-gap: 5.3%;
+    justify-content: space-evenly;
+  }
+
+  .broadcasts__archive {
+    align-self: start;
+  }
+
+  .guests__text {
+    max-width: 70%;
+  }
+
+  .accordion__item_open .accordion__names {
+    justify-content: space-between;
+  }
+
+  .guest-info {
+    min-width: 31%;
+  }
+
+  .playlists {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .playlists__title {
+    margin-bottom: 6px;
+  }
+
+  .playlists__genres-wrapper {
+    margin-bottom: 15px;
+  }
+
+  .playlists__genres-select {
+    display: flex;
+  }
+
+  .playlists__genres:first-child {
+    margin-bottom: 0;
+    margin-right: 34px;
+  }
+
+  .playlists__groups-wrapper {
+    column-gap: 29px;
+    margin-bottom: 43px;
+    justify-content: space-between;
+  }
+
+  .playlists__group {
+    flex-direction: row;
+    width: 255px;
+    height: 112px;
+    flex-grow: 1;
+  }
+
+  .playlists__group-img {
+    height: 100%;
+  }
+
+  .playlists__group::after {
+    right: initial;
+    left: 0;
+  }
+
+  .playlists__group-info {
+    height: 100%;
+    padding: 40px 5px 40px 10px;
+  }
+
+  .playlists__description {
+    order: 1;
+  }
+
+  .advertisement-section {
+    padding-bottom: 94px;
+  }
+
+  .advertisement__img-wrapper {
+    padding-top: 0;
+    margin-left: 0;
+  }
+
+  .advertisement__img {
+    margin-top: -30px;
+  }
+
+  .advertisement__img svg {
+    width: 100px;
+    height: 100px;
+  }
+
+  .about__info {
+    background-image: url(../assets/img/about-dawn.svg);
+    background-repeat: no-repeat;
+    background-position: right 0px top 50px;
+  }
+
+  .about__text {
+    width: 65%;
+  }
+
+  .swiper {
+    width: 825px;
+    margin-bottom: 37px;
+  }
+
+  .swiper__wrapper {
+    column-gap: 30px;
+  }
+
+  .swiper__btn_prev {
+    left: -65px;
+  }
+
+  .swiper__btn_next {
+    right: -65px;
+  }
+}
